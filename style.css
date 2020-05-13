@@ -1,0 +1,24 @@
+img{
+    width: 10rem;
+    margin: 2em;
+}
+form{
+    text-align: center;
+    margin: 2em;
+    border-right: solid 15px rgb(161, 158, 158);
+    border-left: solid 15px rgb(161, 158, 158);
+    border-top: solid 15px rgb(161, 158, 158);
+}
+ul{
+    list-style-type: none;
+}
+.mygtukai{
+    background-color: rgb(161, 158, 158);
+    padding: 2em;
+}
+h3{
+    font-family: 'Changa', sans-serif;
+}
+#list{
+    font-family: 'Changa', sans-serif;
+}

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping List</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&family=Changa&display=swap" rel="stylesheet">
+</head>
+<body class="container">
+    <form>
+        <img class="row mx-auto" src="https://cdn.pixabay.com/photo/2014/04/02/11/16/shopping-305728_960_720.png">
+        <h3>My Shopping List</h3>
+        <div id="list" class="col-sm-2 offset-sm-5"></div>
+        <div class="mygtukai">
+            <p><input class="row input-group-text col-sm-6 mx-auto" type="text" id="tekstas" placeholder="Item"></p>
+            <p><input class="mx-auto btn btn-info btn-block" type="button" onclick="add()" value="Add to List"></p>
+            <p><input class="mx-auto btn btn-dark btn-block" type="button" onclick="isvalyti()" value="Clear List"></p>
+        </div> 
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
